@@ -58,7 +58,7 @@ io.on('connection', (socket)=>{
                 data: { user : "admin" , message:`${name} has left the chat` }
             });
         }
-        //console.log({message, params})
+        
     });
 
     // get all rooms
